@@ -14,6 +14,9 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
     url(r'^$','engine.views.index'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^sub_page/$','engine.views.subPage'),	
+
+
 )
 
 if settings.DEBUG is True:
