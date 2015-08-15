@@ -1,4 +1,4 @@
-@charset "gb2312";
+@charset "utf-8";
 /* view */
 #index_view { width: 640px; float: left; margin: 20px 0; overflow: hidden; color: #333; border-radius: 6px; background: rgba(255,255,255,0.9); padding: 10px; }
 h2.t_nav { border-bottom: #247979 3px solid; font-size: 12px; font-weight: normal; line-height: 48px; height: 40px }
@@ -10,7 +10,7 @@ h2.t_nav a:last-child { background: #59BCBC; color: #fff; }
 #index_view ul img {
 _width:expression((document.documentElement.clientWidth||document.body.clientWidth)<570?"570px":""); overflow: hidden; max-width: 570px; text-align: center; display: block; margin: auto; text-indent: 0em }
 .c_titile { text-align: center; font-size: 22px; margin: 20px 0; color: #000 }
-.box { border: #ccc 1px dashed; text-align: center; padding: 5px 0; margin: 0 30px 10px 30px; color: #666 }
+.box { text-align: center; padding: 5px 0; margin: 0 30px 10px 30px; color: #F6F8F7	}
 .box span { margin: 0 10px }
 .share { width: 100%; height: 30px; display: block }
 /* ÓÒ²àµ¼º½ */

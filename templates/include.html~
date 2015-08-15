@@ -1,8 +1,8 @@
 	<head>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="{{STATIC_URL}}images/favicon.ico" />
-	<title>SmallSheep-Blog</title>
-	<meta name="keywords" content="" />
+	<title>Small Sheep</title>
+	<meta name="keywords" content="小绵羊" />
 	<meta name="description" content="这是一个善于分享的网站" />
 	<link href="{{STATIC_URL}}css/styles.css" rel="stylesheet">
 	<link href="{{STATIC_URL}}css/animation.css" rel="stylesheet">

@@ -1,0 +1,62 @@
+<!doctype html>
+	<html>
+	
+	{% include "include.html" %}
+	{% include "include_2.html" %}
+	</head>
+	<body>
+	
+	{% include "header.html" %}
+
+	<div id="mainbody">
+	  <div class="info">
+		<figure> <img src="{{STATIC_URL}}images/art/post1-full.jpg"  style="width:1000px;height:400px;"  alt="Panama Hat">
+		  <figcaption><strong>渡人如渡己，渡已，亦是渡</strong> 当我们被误解时，会花很多时间去辩白。 但没有用，没人愿意听，大家习惯按自己的所闻、理解做出判别，每个人其实都很固执。与其努力且痛苦的试图扭转别人的评判，不如默默承受，给大家多一点时间和空间去了解。而我们省下辩解的功夫，去实现自身更久远的人生价值。其实，渡人如渡己，渡已，亦是渡人。</figcaption>
+		</figure>
+	  </div>
+	  <!--info end-->
+	  <div class="blank"></div>
+	  <div class="blogs">
+
+<!-- Begin Container -->
+<div class="box">
+
+	<h1 class="title">Book Making U Life Better</h1>
+
+	<div class="clear"></div>
+	<hr />
+	
+	<h3>Blockquote</h3>
+	<blockquote>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</blockquote>
+		
+	<div class="clear"></div>
+	<hr />
+	
+	<h3>Dropcap</h3>
+	<span class="dropcap">D</span> uis non lectus sit amet est imperdiet cursus elementum vitae eros. Cras quis odio in risus euismod suscipit. Fusce viverra ligula vel justo bibendum semper. Nulla facilisi. Donec interdum, enim in dignissim lacinia, lectus nisl viverra lorem, ac pulvinar nunc ante at neque. Proin et dui eros, at aliquet est. Pellentesque consectetur lectus quis enim mollis ut convallis urna malesuada. Sed tincidunt interdum sapien vel gravida. Nulla a tellus lectus, in aliquet tellus. Donec aliquam neque quis mi.</p>
+	<div class="clear"></div><hr />
+	
+	<h3>Highlights</h3>
+	<p>Duis non lectus sit amet est imperdiet cursus elementum vitae eros. <span class="lite1">This is hightlight</span> morbi vitae magna tellus, ac mattis urna. <span class="lite2">This is second highlight</span> posuere. Cras quis odio in risus euismod suscipit. Fusce viverra ligula vel justo bibendum semper.</p>
+
+</div>
+
+
+		<!--bloglist end-->
+		<aside>
+ 
+
+
+		</aside>
+	  </div>
+	  <!--blogs end--> 
+	</div>
+	<!--mainbody end-->
+
+	{% include "footer.html" %}
+
+	<!-- jQuery仿腾讯回顶部和建议 代码开始 -->
+	<div id="tbox"> <a id="togbook" href="/e/tool/gbook/?bid=1"></a> <a id="gotop" href="javascript:void(0)"></a> </div>
+	<!-- 代码结束 -->
+	</body>
+	</html>

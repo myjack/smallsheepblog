@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" media="all" href="{{STATIC_URL}}css/style.css" />
+<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/media-queries.css" />
+<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}js/player/mediaelementplayer.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700' rel="stylesheet" type='text/css'>
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/ie8.css" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/ie9.css" media="all" />
+<![endif]-->
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/retina.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/selectnav.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/mediaelement.min.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/mediaelementplayer.min.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/jquery.dcflickr.1.0.js"></script>
+<script type="text/javascript" src="{{STATIC_URL}}js/twitter.min.js"></script>
