@@ -1,11 +1,11 @@
 	<header>
 	  <nav id="nav">
 		<ul>
+		  <!--<li><img src="{{STATIC_URL}}images/smallsheep.jpg"  style="width:140px;height:40px;"></li>-->
 		  <li><a href="/" >小绵羊小站</a></li>
 		  <li><a href="/jstt/" target="_blank" title="技术文章分享">技术文章分享</a></li>
 		  <li><a href="/jstt/" target="_blank" title="技术问题探讨">技术问题探讨</a></li>
-		  <li><a href="/book_index/" target="_blank" title="书的魅力">书的魅力</a></li>
-
+		  <li><a href="/book_index/" target="_blank" title="书的魅力">书的魅力</a></li>	
 		  <li><a href="/phote-wall/" target="_blank" title="照片故事墙">故事墙</a></li>
 		  <li><a href="/news/s/" target="_blank" title="慢生活">慢生活</a></li>
 		  <li><a href="/comment_index/" target="_blank" title="碎言碎语">碎言碎语</a></li>
